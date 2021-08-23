@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-const Random = () => {
+const Tag = () => {
     const [tag, setTag] = useState('dogs');
     const [gif, setGif] = useState('');
 
@@ -35,4 +35,4 @@ const Random = () => {
     );
 }
 
-export default Random;
+export default Tag;
